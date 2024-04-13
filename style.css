@@ -14,15 +14,91 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #C8A400;
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 500px;
+    margin-top: 77px;
 }
 
 .title{
     width: 1000px;
-    height:  250px;
+    height:  100%
     margin-top: 20px;
 }
 
-.jogadores{
-    width: 600px;
-    height: 700px;
+span {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.textDay {
+    font-size: 18px;
+    color: white;
+}
+
+.markerGreen {
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    background-color: green;
+}
+
+.textHours {
+    width: 318px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.textLocation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 318px;
+    height: 82px;
+    border-right: 2px solid white;
+}
+
+.text-decoration {
+    color: white;
+    font-size: 18px;
+}
+
+.textWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textWrapper > h1 {
+    font-size: 150px;
+    color: white;
+}
+
+.imgWrapper{
+    display: flex;  
+}
+
+main > div > img { 
+    width: 100%;
+    height: 80%; 
+    border: 5px solid #CBC6B9;
+}
+
+img{
+    transition: transform 0.9s;
+}
+
+img:hover{
+    transform: scale(1.1);
 }
