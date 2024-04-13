@@ -169,7 +169,6 @@ menu{
 }
 
 menu > img{
-    /* padding-top: 50px; */
     margin-top: 70px;
     margin-bottom: 50px;;
     border: 5px solid #CBC6B9;
@@ -182,4 +181,81 @@ img{
 
 img:hover{
     transform: scale(1.1);
+}
+
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+form > div{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+div > .column{
+display: flex;
+flex-grow: 2;
+}
+
+div> .column:last-child{
+    width: 110px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    border: 2px solid #988C77;
+    background-color: transparent;
+    width: 100%;
+}
+
+textarea{
+    border: 2px solidvar(--brazilblue);
+    background-color: transparent;
+}
+
+button{
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--brazilblue);
+    font-size: 18px;
+    box-shadow: 5px 5px 0px -2px #CBC6B9, 5px 5px 0px #988C77;
+    color: white;
+}
+
+label{
+    line-height: 30px ;
+    color: white;
+}
+
+form > div:last-child{
+    margin-top: 21px;
+    justify-content: space-between;
+    display: flex;
+}
+
+iframe{
+width: 100%;
+height: 100%;
+
+}
+
+map{
+    height: 226px;
+    box-shadow: 0px 0px 0px 5px #CBC6B9;
+    margin-top: 60px;
 }
