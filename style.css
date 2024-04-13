@@ -259,3 +259,19 @@ map{
     box-shadow: 0px 0px 0px 5px #CBC6B9;
     margin-top: 60px;
 }
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    background-color: var(--brazilblue);
+    color:#EDECE4;
+    font-size: 18px;
+    align-items: center;
+    box-shadow: 0px 0px 0px 10px var(--brazilblue);
+}
+
+footer > img{
+    height: 65px;
+    width: 65px;
+}
